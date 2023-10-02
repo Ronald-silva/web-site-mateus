@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lato:wght@100;300;400&family=Sriracha&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -167,7 +168,7 @@ nav .close-icon{
     margin: 15px;
     border-radius: 14px;
     text-align: center;
-    width: 350px;
+    width: 250px;
 }
 .depoimentos .card-item img{
     border-radius: 100%;
@@ -400,11 +401,11 @@ nav .close-icon{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* clip-path: circle(0% at 100% 0); */
-        transition: 0.7s;
+        clip-path: circle(0% at 100% 0); 
+        transition: 0.7s; 
     }
     .ul .open{
-        /* clip-path: circle(141.6% at 0 100%); */
+        clip-path: circle(141.6% at 0 100%); 
     }
     .ul a{
         margin: 10px 0;
