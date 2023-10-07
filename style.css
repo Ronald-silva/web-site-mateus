@@ -378,7 +378,7 @@ nav .close-icon{
     border-color:#4f9cf9;
 }
 .contato-info .right-side textarea{
-    border: 1px solid #f1f1f1;
+    border: 1px solid grey;
     color: #212121;
     border-radius: 9px;
     margin-bottom: 10px;
